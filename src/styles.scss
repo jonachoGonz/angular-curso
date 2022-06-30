@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap');
+// @import "./variables.scss";
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+$material: 'Material Icons', sans-serif;
+select,
+option,
+label,
+span,
+ul,li,p,
+a,button,
+h1,h2,h3,h4,h5,h6,
+b,i,sup{
+    -webkit-font-smoothing:antialiased;
+}
+button-solid,
+button-outline{
+  display: inline-block;
+}
+
+
+* {
+    // font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+  }
+  
+  html, body {
+    
+    background: white;
+    margin: 20px;
+    color: #3e4144;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  
+  dd {
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: black;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+  }
+  
+  button:hover {
+    background-color: #3e4144;
+  }
+  
+  button:focus{ 
+    outline: none;
+  }
+  
+  .p-1 {
+    padding: 1px;
+  }
